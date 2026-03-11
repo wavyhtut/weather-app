@@ -16,7 +16,7 @@ A simple web application that allows users to search for a city and view real-ti
 ## Setup
 This project requires an API key.
 
-1. Obtain an API key from the weather API provider
+1. Obtain an API key from the [weather API provider](https://openweathermap.org/)
 2. Replace `YOUR_API_KEY` in the source code with your own key
 
 ## Author
