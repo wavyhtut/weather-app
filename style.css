@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: gray;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: aquamarine;
+    text-align: center;
+}
+/* search */
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search input{
+    width: 60%;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+}
+.search button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.search img{
+    width: 30px;
+}
+
+/* weather image */
+.weatherimg img{
+    width: 200px;
+}
+/* description */
+.description{
+    color:  brown ;
+    font-size: 50px;
+    font-weight: bolder;
+}
+/* temperature and city */
+.temperature, .city{
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+/* details */
+
+.details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 50px;
+    font-weight: bold;
+}
+.details img{
+    width: 70px;
+}
+
+/* humiditiy and precipitation */
+.humidity, .wind{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 20px;
+}
